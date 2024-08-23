@@ -1,0 +1,10 @@
+Description: Create an API for a simple social media platform where users can create profiles, post updates, follow other users, and like posts. Implement real-time features with WebSockets for live updates.
+Endpoints:
+
+
+POST /users: Register a new user.
+GET /users/:id: Retrieve user profile information.
+POST /posts: Create a new post.
+GET /posts: Get a feed of posts from followed users.
+POST /posts/:id/like: Like a post.
+POST /users/:id/follow: Follow a user.
